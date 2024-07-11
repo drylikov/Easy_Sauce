@@ -1,6 +1,5 @@
 # Easy Sauce
 
-[![Build Status](https://secure.travis-ci.org/philipwalton/easy-sauce.png)](http://travis-ci.org/philipwalton/easy-sauce)
 
 Easy Sauce is a Node.js library that makes it easy to run JavaScript unit tests on the Sauce Labs cloud.
 
@@ -9,8 +8,6 @@ Easy Sauce is a Node.js library that makes it easy to run JavaScript unit tests 
   * [Command Line Interface](#command-line-interface)
   * [Node.js API](#nodejs-api)
 * [Running the tests](#running-the-tests)
-
-For a detailed explanation of how automated, cross-browser JavaScript unit testing works, and the motivation behind Easy Sauce, see the article [Learning How to Set Up Automated, Cross-browser JavaScript Unit Testing](https://philipwalton.com/articles/learning-how-to-set-up-automated-cross-browser-javascript-unit-testing/).
 
 ## Installation
 
