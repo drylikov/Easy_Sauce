@@ -1,0 +1,17 @@
+{
+  "easySauce": {
+    "port": 8080,
+    "platforms": [
+      [
+        "Windows XP",
+        "internet explorer",
+        "8"
+      ]
+    ],
+    "service": "sauce-connect",
+    "serviceOptions": {
+      "verbose": true
+    },
+    "build": "1"
+  }
+}

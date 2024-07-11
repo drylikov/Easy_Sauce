@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const minimist = require('minimist');
+const cli = require('../lib/cli');
+
+// Calls the cli module with the command line arguments.
+let argv = minimist(process.argv.slice(2));
+
+// Adds newline padding before and after any output.
+process.stderr.write('\n');
+cli(argv);
+process.on('exit', () => process.stderr.write('\n'));
